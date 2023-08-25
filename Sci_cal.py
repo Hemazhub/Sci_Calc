@@ -1,7 +1,7 @@
 import tkinter as tk
 
 #math module is imported to perform all the mathematical operations
-
+from math import *
 
 def click(event):
     text = event.widget.cget("text")
